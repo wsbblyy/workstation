@@ -27,7 +27,7 @@ Docker 可以实现: Docker的话大家应该都熟悉了, 把服务都Docker化
 3. 部署方便, 环境统一, 这其实就是Docker的特性
 
 ********************************************************
-##Vagrant的部署教程:
+## Vagrant的部署教程:
 1. 下载安装 vagrant 和 virtualbox 安装没什么说的都选默认就行
 2. 安装好这两个东西后 virtualbox 就不用管了因为它会随着 vagrant 而启动
 3. 打开命令行 输入命令 `vagrant -v` 可以看到vgrant版本
