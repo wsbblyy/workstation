@@ -45,3 +45,7 @@ vagrant box 没有国内源, https://c4ys.com/archives/1230 这个我网搜的�
     2. 取消`config.vm.synced_folder`的注释, 第一个参数是本机想要挂载的目录, 第二参数是Linux目标目录
     我是这样配置的 **config.vm.synced_folder "D:/workspace", "/workspace"**
 6. 现在运行`vagrant up`启动virtualbox, 第一次运行需要选择虚拟机, 选virtualbox就行, 然后运行`vagrant ssh`就可以进入Linux服务器了
+
+现在我们`ls`一下`/`目录就可以看到`workspace`这个挂载目录, 它和你的主机上的`D:/workspace`是同一个目录并且数据是同步的
+
+********************************************************** 
