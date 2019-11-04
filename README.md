@@ -54,16 +54,20 @@ vagrant box 没有国内源, https://pan.baidu.com/s/1Xn8Io-E9eA9Cyyly6kO5vQ 密
     `sudo touch sources.list`   
     在windows下用编辑器打开sources.list这个文件, 然后将下面的源复制进去, 这些是中科大的源   
 
-    deb http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse   
-    deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse   
-    deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse   
-    deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse   
-    deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse   
-    deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse   
-    deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse   
-    deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse   
-    deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse   
-    deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse   
+    deb http://cn.archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse
+    deb http://cn.archive.ubuntu.com/ubuntu/ bionic-security main restricted universe multiverse
+    deb http://cn.archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse
+    deb http://cn.archive.ubuntu.com/ubuntu/ bionic-proposed main restricted universe multiverse
+    deb http://cn.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+    deb-src http://cn.archive.ubuntu.com/ubuntu/ bionic main restricted universe multiverse
+    deb-src http://cn.archive.ubuntu.com/ubuntu/ bionic-security main restricted universe multiverse
+    deb-src http://cn.archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe multiverse
+    deb-src http://cn.archive.ubuntu.com/ubuntu/ bionic-proposed main restricted universe multiverse
+    deb-src http://cn.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+
+————————————————
+版权声明：本文为CSDN博主「cgs1999」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/cgs1999/article/details/91415073
 
     复制完后继续在Linux下运行   
     `sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak` 备份sources.list以防万一   
