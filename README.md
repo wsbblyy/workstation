@@ -65,10 +65,6 @@ vagrant box 没有国内源, https://pan.baidu.com/s/1Xn8Io-E9eA9Cyyly6kO5vQ 密
     deb-src http://cn.archive.ubuntu.com/ubuntu/ bionic-proposed main restricted universe multiverse
     deb-src http://cn.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
 
-————————————————
-版权声明：本文为CSDN博主「cgs1999」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/cgs1999/article/details/91415073
-
     复制完后继续在Linux下运行   
     `sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak` 备份sources.list以防万一   
     `sudo rm /etc/apt/sources.list` 删除原有list文件   
